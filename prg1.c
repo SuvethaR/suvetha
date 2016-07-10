@@ -1,5 +1,11 @@
-#include<stdio.h>
-void main()
-{
-int i,j
-for(i=0;i
+#include <stdio.h>
+int main(){
+int num, i = 1;
+printf("Enter any Number:");
+scanf("%d", &num);
+while (i <= 10) {
+printf("%d x %d = %d", num, i, num * i);
+i++;
+}
+return 0;
+}
